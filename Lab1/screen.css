@@ -1,0 +1,34 @@
+/* Styling Home */
+div#header h1{
+    color: darkred;
+}
+
+div#header #subtitle{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div#breadcrumb{
+    background-color: darkred;
+    color: white;
+    font: 1.25em bold;
+}
+
+div#menu{
+    border-right: 0.25em gray;
+    float: left;
+    font-size: 1.25em;
+}
+
+div#footer{
+    text-align: center;
+}
+
+img#imgValidCode{
+float: left;
+}
+
+img#imgValidCSS{
+float: right;
+}
+
