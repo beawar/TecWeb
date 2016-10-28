@@ -1,6 +1,6 @@
 /* Styling Home */
 div#header h1{
-    color: darkred;
+    color: red;
 }
 
 div#header #subtitle{
@@ -9,7 +9,7 @@ div#header #subtitle{
 }
 
 div#breadcrumb{
-    background-color: darkred;
+    background-color: red;
     color: white;
     font: 1.25em bold;
 }
