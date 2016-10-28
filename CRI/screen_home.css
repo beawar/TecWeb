@@ -1,34 +1,160 @@
-/* Styling Home */
-div#header h1{
-    color: red;
+/********************/
+/**** HOME.HTML *****/
+/********************/
+
+*{
+	padding: 0em;
+	margin: 0em;
 }
 
-div#header #subtitle{
-    font-size: 1.5em;
-    text-align: center;
+html, body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	max-width: 1024px;
+	margin: auto;
+	border: 1px solid #ddd;
 }
 
-div#breadcrumb{
-    background-color: red;
+a:link{
+	color: #cf0808;
+}
+
+a:visited{
+	color: #8b2323;
+}
+
+#logo{
+	float:left;
+}
+
+#header{
+	padding: 1.0em;
+	text-align: center;
+}
+
+#header h1{
+	font-size: 2.2em;
+    color: #cf0808;
+    /*font-weight: bold;*/
+}
+
+#subtitle{
+	font-size: 1.2em;
+}
+
+acronym{
+	text-decoration: none; /* Code for Firefox */
+}
+
+#breadcrumb{
+    background-color: #cf0808;
     color: white;
-    font: 1.25em bold;
+    font-size: 1.2em;
+    padding: 0.5em 0em 0.5em 1em;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
-div#menu{
+#menu{
+	padding: 1.5em;
     border-right: 0.25em gray;
     float: left;
-    font-size: 1.25em;
+    font-size: 1.125em;
 }
 
-div#footer{
+#menu ul{
+	list-style-type: none;
+}
+
+#menu li{
+	padding: 0.5em 0em;
+}
+
+#content{
+	margin-left: 10em;
+	border-left: 1px solid #ddd;
+	padding: 2em 3em;
+}
+
+#content h1{
+	font-size: 1.25em;
+}
+
+#content h2{
+	font-size: 1em;
+	padding: 0.7em 0em;
+}
+
+#content p{
+	font-size: 0.75em;
+	padding: 0.5em 0em;
+}
+
+#content ul{
+	font-size: 0.75em;
+	padding: 0.5em 2.1em;
+}
+
+#footer{
+	border-top: 1px solid #ddd;
     text-align: center;
+    font-size: 0.7em;
+    font-style: italic;
+    padding: 1em; 
 }
 
-img#imgValidCode{
+#imgValidCode{
 float: left;
 }
 
-img#imgValidCSS{
+#imgValidCSS{
 float: right;
 }
+
+/********************/
+/* COME DONARE.HTML */
+/********************/
+
+
+
+/********************/
+/**** FOTO.HTML *****/
+/********************/
+
+#foto figure{
+	width: 30%;
+	float: left;
+	padding: 0.5em;
+}
+
+#foto figure img{
+	width:100%;
+}
+
+#foto dt{
+	font-weight: bold;
+}
+
+/********************/
+/**** NEWS.HTML ****/
+/*******************/
+
+article{
+	border: 1px solid #ddd;
+	margin-bottom: 1em;
+}
+
+article header{
+	background-color: #cf0808;
+	color: white;
+	border-bottom: 1px solid #ddd;
+}
+
+article header h1{
+	display: inline;
+}
+
+article h1:
+
+
+
 
