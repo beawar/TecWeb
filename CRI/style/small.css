@@ -1,0 +1,16 @@
+/*
+ * CSS for mobile devices - screen under 480px
+ */
+
+/* General */
+#menu{
+    float: none;
+}
+
+#menu li {
+    border: 1px solid #ddd;
+}
+
+
+
+/* Foto */
