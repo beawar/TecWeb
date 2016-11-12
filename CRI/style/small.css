@@ -3,14 +3,88 @@
  */
 
 /* General */
+#logo{
+    width: 2.7em;
+}
+
+#header, header{
+    font-size: 2.8em;
+}
+
+#header p, header p{
+    font-size: 0.5em;
+}
+
 #menu{
     float: none;
+    text-align: center;
+    width: 96%;
+    alignment: center;
+    padding: 0;
+    margin: 2%;
 }
 
 #menu li {
     border: 1px solid #ddd;
 }
 
+#content{
+    margin: 5%;
+    width: 90%;
+    border: none;
+    padding-left: 0;
+}
 
+#imgValidCSS, #imgValidCode{
+    float: none;
+    width: 20%;
+}
+
+#footer p, footer p{
+    width: 100%;
+}
+
+/* News */
+
+article header{
+    padding: 1em;
+    font-size: 0.7em;
+}
+
+/*Come donare*/
+.bank_items dt{
+    float: none;
+}
+
+.bank_items dd{
+    margin-left: 3em;
+}
+
+.bank_items{
+    padding: 1em;
+    border: 1px solid #dddddd;
+}
 
 /* Foto */
+
+#foto figure{
+    width: 100%;
+    padding: 1em 0;
+    float: left;
+}
+
+#foto dt{
+    display: inline;
+}
+
+#foto figcaption{
+    display: inline-block;
+    font-size: 1.35em;
+    text-align: center;
+    width: 100%;
+}
+
+#foto + p{
+    display: inline;
+}
+
