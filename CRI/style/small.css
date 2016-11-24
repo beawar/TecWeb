@@ -4,7 +4,8 @@
 
 /* General */
 html, body{
-    font-size: medium;
+    font-size: 170%;
+    overflow: hidden;
 }
 
 #logo{
@@ -12,20 +13,15 @@ html, body{
 }
 
 #header, header{
-    font-size: 2.8em;
-}
-
-#header p, header p{
-    font-size: 0.5em;
+    font-size: 100%;
 }
 
 #menu{
     float: none;
     text-align: center;
-    width: 96%;
-    alignment: center;
+    width: 100%;
     padding: 0;
-    margin: 2%;
+    margin: 0;
 }
 
 #menu li {
@@ -33,8 +29,8 @@ html, body{
 }
 
 #content{
-    margin: 5%;
-    width: 90%;
+    margin: 2%;
+    width: 96%;
     border: none;
     padding-left: 0;
 }
@@ -49,10 +45,18 @@ html, body{
 }
 
 /* News */
+#news_content{
+    margin: 0;
+    width: 99%;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+}
 
 article header{
-    padding: 1em;
-    font-size: 0.7em;
+    margin: 0;
+    width: 98%;
+    padding: 1%;
 }
 
 /*Come donare*/
