@@ -221,3 +221,21 @@ article h1::before{
 article p{
     margin: 0.5em;
 }
+
+/*DATIRACCOLTI*/
+table{
+    font-size: 0.9em;
+    font-weight: normal;
+    border: 1px solid #ddd;
+}
+
+caption, th{
+    text-align: center;
+}
+
+thead, tfoot{
+    background-color: #cf0808;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
